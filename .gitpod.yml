@@ -1,0 +1,16 @@
+image:
+  file: .gitpod.Dockerfile
+github:
+  prebuilds:
+    master: true
+    branches: false
+    pullRequests: true
+    pullRequestsFromForks: false
+    addChecks: true
+    addComment: true
+    addBadge: true
+    addLabel: true
+
+tasks:
+  - name: Fetch dependencies
+    command: dart pub get
