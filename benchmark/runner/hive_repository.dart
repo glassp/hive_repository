@@ -22,7 +22,7 @@ class HiveRepositoryRunner extends Runner {
   }
 
   @override
-  Future<void> read(int key) async{
+  Future<void> read(int key) async {
     await adapter.executeQuery(
       Query(
         entityName: 'Foo',
@@ -46,7 +46,7 @@ class HiveRepositoryRunner extends Runner {
   }
 
   @override
-  Future<void> write(int key, Map<String, dynamic> json) async{
+  Future<void> write(int key, Map<String, dynamic> json) async {
     await adapter.executeQuery(
       Query(
         entityName: 'Foo',

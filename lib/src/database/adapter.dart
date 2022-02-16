@@ -33,7 +33,7 @@ class HiveDatabaseAdapter extends DatabaseAdapter with QueryExecutor {
     return await _executeQueryOnBox(query, box);
   }
 
-  /// initialized hive if not already initialized and opens a box for the given 
+  /// initialized hive if not already initialized and opens a box for the given
   /// class
   Future<void> _openBox(Query query) async {
     if (!_isInititalized) {
