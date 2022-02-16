@@ -28,12 +28,3 @@ jobs:
 
       - name: Running Tests
         run: dart test --coverage=coverage || exit 0
-
-      - name: Convert Coverage to lcov
-        run: format_coverage -l -i coverage -o coverage.lcov
-
-      - name: Upload Coverage to CodeCov
-        uses: codecov/codecov-action@v1
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          file: coverage.lcov
