@@ -12,3 +12,4 @@ coverage.lcov
 **/*.mock.dart
 **/__mock__/
 **/__mocks__/
+pubspec.lock
