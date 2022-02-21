@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+ - **DOCS:** 
+    - add example/README.md 
+
 ## 1.0.2
  - **IMPROVEMENT**
     - removed pubspec.lock to prevent dependency conflicts
