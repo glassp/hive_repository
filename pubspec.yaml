@@ -1,13 +1,13 @@
 name: hive_repository
 description: A DatabaseAdapter for the hive database as used by the database_repository package
-version: 1.0.3
+version: 1.0.4
 repository: https://github.com/glassp/hive_repository
 
 environment:
   sdk: ">=2.15.0 <3.0.0"
 
 dependencies:
-  database_repository: ^1.1.0
+  database_repository: ^2.0.0
   hive: ^2.0.5
   meta: ^1.7.0
   uuid: ^3.0.5
